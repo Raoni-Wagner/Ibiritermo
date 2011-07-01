@@ -1,0 +1,285 @@
+/* CSS Document */
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000;
+}
+p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	font-family: Arial, Helvetica, sans-serif;	
+	color:#006699;
+	font-size:12px;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+.master{
+	background-image: url(../images/bg.png);
+background-repeat:no-repeat;
+background-position: bottom;
+
+}
+.container {
+	width: 1024px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+.content{
+	width: 1024px;
+	background: #fff;
+}
+.header{
+	margin-bottom: 30px;
+	text-align:center;
+}
+.teste{
+	width:100%;
+	height:30px;
+	background:#000;
+	text-align: center;
+}
+.teste p{
+	padding-top:10px;
+	color: #FFF;
+}
+.sidebar{
+	background:#FFF;
+	color: #fff;
+	width: 200Px;
+	/*float: right;*/
+	position: relative;
+	height: 800px;
+	float:right;
+}
+.sidebar p{
+	color: #000;
+	text-align:justify
+}
+.sidebar h2{
+	color: #060;
+}
+.sidebar a{
+	background:#0F0;
+}
+.corpo{
+	width:980px;
+	height: 604px;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 60px;
+}
+.corpo h2{
+	font-size:25px;
+	font-family: "trajan Pro";
+	text-align: center;
+	margin-top: 50px;
+	color: #244A85;	
+}
+.corpo h4{
+	color: #060;
+}
+.corpo p{
+	color: #000;
+	text-align: right;
+}
+.corpo ul{
+	list-style-type:none;
+}
+.corpo a{
+	text-align: center;
+	
+}
+.corpo #produtos {
+	width: 190px; 
+	float: left; 
+ 	
+}
+#texto h1{
+	font-family: "trajan Pro";
+	text-align: center;
+	margin-top: 60px;
+	color: #0C0;
+}
+.corpo #produtos ul{
+	list-style-type: none;
+	
+}
+.corpo #col{
+	color: #fff;
+	float:right;
+	width: 225px;
+	position: relative;
+}
+.corpo #col p{
+/*	padding-top: 80px;*/
+	color: #000;
+	text-align:justify;
+}
+.home{
+	height: 620px;
+	background-image: url(../images/fundo_home.PNG);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.home p{
+	padding-top: 80px;
+}
+.empresa{
+	height: 620px;
+	background-image: url(../images/fundo_empresa.PNG);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.empresa p{
+	padding-top: 80px;
+}
+.serv{
+	height: 620px;
+	background-image: url(../images/fundo_home.PNG);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.acao{
+height: 620px;
+	background-image: url(../images/fundo_empresa.PNG);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.acao p{
+	padding-top: 80px;
+}
+.galeria{
+	height: 620px;
+	background-image: url(../images/fundo_empresa.PNG);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.galeria p{
+	padding-top: 80px;
+}
+.contato{
+	height: 620px;
+	background-image: url(../images/fundo_home.PNG);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.coluna{
+	width:380px;
+	position: relative;
+	float: left;
+	margin-top: 100px;
+	margin-left: 60px;
+	text-align: center;
+	background: #Fff;	
+}
+.coluna a{
+	text-align: left;
+}
+.col{
+	width:380px;
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
+	text-align: center;
+	background: #Fff;	
+}
+.col a{
+	text-align: left;
+}
+.col li{
+	text-align: left;
+}
+.menu {
+	height: 40px; 
+	background: #000;
+}
+.twitter{
+	margin-top: 20px;
+	background-color: #D2D3D3;
+}
+.twitter h5{
+	background-color: #666;
+	color: #fff;
+	float: right;
+}
+.footer {
+
+	height:30px;
+	position: relative;
+	width: 100%;
+	margin-top: 200px;
+}
+.footer p{
+	color: #000;
+}
+.footer ul{
+	text-align: center;
+}
+.footer li{
+	display: inline;
+	text-align: center;
+}
+.footer a{
+	color: #000;
+}
+.servicos{
+	padding-bottom: 20px;	
+}
+.servicos ul{
+	list-style-type: none;
+}
+.servicos li{
+	display:inline;	
+	padding: 0 20px;
+}
+.servico ul{
+	list-style-type: none;
+}
+.servico li{
+	display:inline;	
+	margin: 0 13px;
+}
+.servico #foto{
+	margin: 0 auto;
+	width: 800px;
+}
+
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+

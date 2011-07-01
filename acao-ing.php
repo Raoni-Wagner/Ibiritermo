@@ -1,0 +1,39 @@
+<img src="images/logo_ibiritermo.png" width="444" height="126" style="margin-left: 260px;">
+<div style="height: 5px; background-color: #0C0; width: 100%; margin-left: 180px;">
+</div>
+<div style="height: 5px; background-color: #0C0; width: 100%; margin-top: 8px;">
+</div>
+<div id="texto">
+<h1>SOCIAL ACTIONS</h1>
+  <div style="border:solid 2px; border-color: #090; width: 680px; margin-left: 160px; height: 300px;">
+    <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, est vel hendrerit porta, ligula tellus feugiat augue, a lacinia nisi augue et magna. Proin fermentum fermentum diam, sed ornare massa vestibulum in. Integer placerat vulputate fringilla. Maecenas convallis arcu vitae felis auctor aliquet commodo felis iaculis. Mauris rhoncus ornare leo in viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sed risus tortor, eget iaculis lorem. Donec et magna eget risus rhoncus rutrum vel sed nibh. Vivamus quis tortor sit amet dui ultricies sagittis. Integer sed egestas lectus. Aenean lacus tellus, placerat sed hendrerit ac, elementum vestibulum velit.</p>
+    <div style=" text-align: center;">
+      <a href="images/dia_das_criancas/1.jpg" rel="shadowbox[vocation]"><img src="images/dia_das_criancas/1.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/dia_das_criancas/2.jpg" rel="shadowbox[vocation]"><img src="images/dia_das_criancas/2.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/dia_das_criancas/3.jpg" rel="shadowbox[vocation]"><img src="images/dia_das_criancas/3.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/dia_das_criancas/4.jpg" rel="shadowbox[vocation]"><img src="images/dia_das_criancas/4.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/dia_das_criancas/5.jpg" rel="shadowbox[vocation]"><img src="images/dia_das_criancas/5.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/dia_das_criancas/6.jpg" rel="shadowbox[vocation]"><img src="images/dia_das_criancas/6.jpg" width="80" height="60" /></a><br /><br />
+      <a href="images/guardiao/7.jpg" rel="shadowbox[vocation2]"><img src="images/guardiao/7.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/guardiao/8.jpg" rel="shadowbox[vocation2]"><img src="images/guardiao/8.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/guardiao/13.jpg" rel="shadowbox[vocation2]"><img src="images/guardiao/13.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/guardiao/10.jpg" rel="shadowbox[vocation2]"><img src="images/guardiao/10.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/guardiao/11.jpg" rel="shadowbox[vocation2]"><img src="images/guardiao/11.jpg" width="80" height="60" style="margin-right: 10px;" /></a>
+      <a href="images/guardiao/12.jpg" rel="shadowbox[vocation2]"><img src="images/guardiao/12.jpg" width="80" height="60" /></a>
+    </div>
+  </div>
+      <div style=" text-align: center;">
+      <a href="?pag=tecer-ing" ><img src="images/1.jpg" width="80" height="80" style="margin-right: 10px;" /></a>
+      <a href="?pag=adav-ing" ><img src="images/2.jpg" width="80" height="80" style="margin-right: 10px;" /></a>
+      <a href="?pag=aquarela-ing" ><img src="images/3.jpg" width="80" height="80" /></a>
+      </div>
+      <div class="footer" style=" margin-top: 100px;">
+ 	<ul>
+    	<li><a href="?pag=home">Home</a>   |</li>
+        <li><a href="?pag=home-ing">Home English</a>   |</li>
+        <li><a href="?pag=qualidade-ing">Quality of Life</a>   |</li>
+        <li><a href="?pag=acao-ing">Social Actions</a>   |</li>
+        <li><a href="?pag=responsa-ing">Social Responsibility</a></li>
+    </ul>
+ </div>	
+</div>
